@@ -1,6 +1,7 @@
 # here mlflow will be used to track and register the model
 import mlflow
 from mlflow.keras import save_model
+from .. import AniModel
 
 mlflow.set_experiment()
 mlflow.set_tags()
